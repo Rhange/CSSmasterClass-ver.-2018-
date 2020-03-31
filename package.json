@@ -1,0 +1,32 @@
+{
+  "name": "CSSmasterClass-ver.-2018-",
+  "version": "1.0.0",
+  "description": "NomadCoders Academy CSS master class (2018)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rhange/CSSmasterClass-ver.-2018-.git"
+  },
+  "author": "Rhange",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rhange/CSSmasterClass-ver.-2018-/issues"
+  },
+  "homepage": "https://github.com/Rhange/CSSmasterClass-ver.-2018-#readme",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "dependencies": {
+    "postcss-preset-env": "^6.7.0"
+  },
+  "postcss": {
+    "plugins": {
+      "postcss-preset-env": {
+        "stage": 0
+      },
+      "postcss-grid-kiss": true
+    }
+  },
+  "devDependencies": {
+    "postcss-grid-kiss": "^2.3.0"
+  }
+}
